@@ -1,7 +1,8 @@
 # Fall 2021 Data Science Intern Challenge (Amy Tai)
 
 ## Question 1
-*Tool Used:* Excel (amytai-shopify-q1.xlsx)
+*Tool Used:* Excel 
+*Work Location:* amytai-shopify-q1.xlsx
 *Assumption:* order_amount is given in $ (based on statement that AOV is $3145.13).
 
 ### Part A
@@ -26,4 +27,15 @@ I would report the trimmed mean for this dataset with 10% trimming as the trimme
 The value of the 10% trimmed mean is approximately $294.39. Interestingly enough, the median is $284 and has a close value to the 10% trimmed mean. 
 
 ## Question 2
+*Tool Used:* SQL (W3 Schools)
+*Code Location:* amytai-shopify-q2.sql
+*Assumption:* There was only one employee and one product for Parts B and C. This assumption was validated through querying without this assumption, but required a more complicated query as seen in the code. 
 
+### Part A
+54 orders were shipped by Speedy Express in total.
+
+### Part B
+The last name of the employee with the most orders is Peacock.
+
+### Part C
+ProductID 31 was ordered the most by customers in Germany.
