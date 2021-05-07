@@ -2,7 +2,9 @@
 
 ## Question 1
 *Tool Used:* Excel 
+
 *Work Location:* amytai-shopify-q1.xlsx
+
 *Assumption:* order_amount is given in $ (based on statement that AOV is $3145.13).
 
 ### Part A
@@ -13,7 +15,7 @@ The current calculation of the average order value (AOV) does not account for ou
 Upon closer inspection of the data, there are 17 data rows with the same user_id and shop_id with an order size of 2000 which results in an extremely higher order cost of $704,000. Additionally, the unit cost per sneaker for shop_id 78 is an extremely high value of $25,725 whereas the other shops have a unit cost below $360. After graphing a histogram of the order amount (shown in Figure 1), it is evident that there appears some outliers in the data attributed to the larger order size (or total_items) and the larger unit cost of a sneaker (calculated by dividing the order_amount by the total_items as "each of these shops sells only one model of shoe"). 
 
 <p align="center">
-  <img src="./Order Amount Histogram.JPG" width="350" alt="Histogram of Order Amounts"/>
+  <img src="./Order Amount Histogram.JPG" alt="Histogram of Order Amounts"/>
 </p>
 
 **Figure 1.** Histogram of the order amount in the given 30 day sample dataset.
@@ -28,7 +30,9 @@ The value of the 10% trimmed mean is approximately $294.39. Interestingly enough
 
 ## Question 2
 *Tool Used:* SQL (W3 Schools)
+
 *Code Location:* amytai-shopify-q2.sql
+
 *Assumption:* There was only one employee and one product for Parts B and C. This assumption was validated through querying without this assumption, but required a more complicated query as seen in the code. 
 
 ### Part A
